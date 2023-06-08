@@ -53,7 +53,7 @@ You can now access the server at http://192.168.**.**:8000
     composer install
     cp .env.example .env
     php artisan key:generate
-    php artisan jwt:generate
+    php artisan jwt:secret
 # Testing API
 
 Run the laravel development server
